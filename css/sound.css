@@ -1,0 +1,34 @@
+
+#sound {
+    padding: 7px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    color: #fff;
+  }
+  .sound-cloud {
+    font-size: 1.2rem;
+    margin: 10px;
+    color: #f50057;
+  }
+  .on-off {
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  #off {
+    color: #f50057;
+  }
+  #on {
+    display: none;
+    color: #08fdd8;
+  }
+  .btns-container .fas {
+    font-size: 2rem;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+  }
+  .btns-container .fas:nth-child(2) {
+    display: none;
+  }
